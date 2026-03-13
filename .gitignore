@@ -1,0 +1,28 @@
+# Models (too large for git)
+*.safetensors
+*.ckpt
+*.pth
+
+# Generated assets (regenerate with sprite pipeline)
+game_assets/
+*.tmp
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WZ binaries (only XMLs tracked)
+*.wz
+*.img
+
+# Large data
+*.log

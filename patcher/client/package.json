@@ -1,0 +1,9 @@
+{
+  "name": "maple-patcher",
+  "version": "1.0.0",
+  "bin": "patcher.js",
+  "pkg": {
+    "targets": ["node18-win-x64"],
+    "outputPath": "dist"
+  }
+}
