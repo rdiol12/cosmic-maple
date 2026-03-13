@@ -1,0 +1,41 @@
+{
+  "project": "hattrick",
+
+  "rules": [
+    "Check transfer deadlines before any market action.",
+    "Always run economy check before training decisions.",
+    "Report match results and training updates to Ron on WhatsApp."
+  ],
+
+  "chainTemplates": {},
+
+  "contextFiles": [],
+
+  "workTypes": {
+    "transfers": {
+      "keywords": "transfer|buy|sell|bid|market|scout|player\\s*search",
+      "sections": [],
+      "phases": []
+    },
+    "training": {
+      "keywords": "training|coach|skill\\s*up|practice|stamina",
+      "sections": [],
+      "phases": []
+    },
+    "economy": {
+      "keywords": "economy|finance|salary|budget|balance|sponsor",
+      "sections": [],
+      "phases": []
+    },
+    "match": {
+      "keywords": "match|lineup|formation|tactic|order|friendly|league|cup",
+      "sections": [],
+      "phases": []
+    }
+  },
+
+  "sectionDetectors": {},
+  "phaseDetectors": {},
+  "alwaysSections": [],
+  "alwaysPhases": []
+}
